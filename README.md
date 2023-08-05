@@ -1,3 +1,4 @@
+
 # Java 17 + JUnit 5 Quick Start Maven Archetype
 
 Maven archetype to create a project configured for Java 11 and using JUnit 5.
@@ -6,7 +7,8 @@ Forked and tweaked from https://github.com/deangerber/java11-junit5-archetype
 
 ## Install archetype in local repository
 
-Once you have cloned the repository locally. Just run the maven command below to install the archetype.
+Once you have cloned the repository locally. Just run the maven
+command below to install the archetype.
 
 ``` shell
 mvn install
@@ -14,16 +16,18 @@ mvn install
 
 ## Example using the archetype
 
-When the archetype has been installed locally you can create a project using the command below. Just replace the parameter values with the actual values you want to use.
+When the archetype has been installed locally you can create a project
+using the command below. Just replace the parameter values with the
+actual values you want to use.
 
 ``` shell
- mvn archetype:generate -DarchetypeGroupId=com.deangerber.archetypes \
-                        -DarchetypeArtifactId=java11-junit5-archetype \
+ mvn archetype:generate -DarchetypeGroupId=quest.homework.archetypes \
+                        -DarchetypeArtifactId=java17-junit5-archetype \
                         -DarchetypeVersion=1.0.0-SNAPSHOT \
-                        -DgroupId=com.deangerber.kata.stringcalculator \
-                        -DartifactId=stringcalculator \
                         -Dversion=1.0.0-SNAPSHOT \
-                        -DinteractiveMode=false
+                        -DinteractiveMode=false \
+                        -DgroupId=com.deangerber.kata.stringcalculator \
+                        -DartifactId=stringcalculator
 ```
 
 ## References
