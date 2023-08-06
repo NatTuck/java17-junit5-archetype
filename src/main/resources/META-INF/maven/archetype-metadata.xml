@@ -2,11 +2,14 @@
   xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd" 
   xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0" 
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-  name="Java 11 with JUnit 5">
+  name="Java 17 with JUnit 5">
 
   <requiredProperties>
     <requiredProperty key="gitignore">
       <defaultValue>.gitignore</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="projectile">
+      <defaultValue>.projectile</defaultValue>
     </requiredProperty>
   </requiredProperties>
 
@@ -15,7 +18,9 @@
       <directory></directory>
       <includes>
         <include>__gitignore__</include>
+        <include>__projectile__</include>
         <include>README.md</include>
+	<include>test.pl</include>
       </includes>
     </fileSet>
     <fileSet filtered="true" packaged="true" encoding="UTF-8">
