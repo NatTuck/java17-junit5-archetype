@@ -8,8 +8,8 @@ import org.junit.jupiter.api.Test;
 
 public class AppShould {
 
-  @Test
-  void add_two_numbers() {
-    assertThat(1 + 1, is(equalTo(2)));
-  }
+    @Test
+    void add_two_numbers() {
+	assertThat(1 + 1, is(equalTo(2)));
+    }
 }
