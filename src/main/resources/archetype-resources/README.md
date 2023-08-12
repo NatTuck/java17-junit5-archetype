@@ -7,6 +7,7 @@ Try the following commands:
 ```
 mvn verify
 mvn test
+mvn checkstyle:checkstyle
 mvn exec:java
 mvn clean
 ```

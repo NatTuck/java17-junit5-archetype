@@ -42,6 +42,12 @@ To compile the app and run tests:
 mvn verify
 ```
 
+To run checkstyle:
+
+```shell
+mvn checkstyle:checkstyle
+```
+
 To run the app (must first be compiled):
 
 ```shell
