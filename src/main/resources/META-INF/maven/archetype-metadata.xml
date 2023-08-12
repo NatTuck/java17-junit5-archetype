@@ -21,6 +21,7 @@
         <include>__projectile__</include>
         <include>README.md</include>
 	<include>test.pl</include>
+	<include>style.xml</include>
       </includes>
     </fileSet>
     <fileSet filtered="true" packaged="true" encoding="UTF-8">
