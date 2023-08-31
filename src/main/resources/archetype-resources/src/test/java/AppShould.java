@@ -8,6 +8,6 @@ public class AppShould {
 
     @Test
     void add_two_numbers() {
-	assertEquals(1 + 1, 2);
+        assertEquals(1 + 1, 2);
     }
 }
