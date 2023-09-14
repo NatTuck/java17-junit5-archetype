@@ -124,11 +124,16 @@
     </module>
     <module name="JavadocMethod"/>
     <module name="MissingJavadocType"/>
+    <module name="MissingJavadocType">
+      <property name="scope" value="package" />
+    </module>
     <module name="MissingJavadocMethod">
       <property name="scope" value="public" />
+      <property name="ignoreMethodNamesRegex" value="^main$" />
     </module>
     <module name="MissingJavadocMethod">
       <property name="scope" value="package" />
+      <property name="ignoreMethodNamesRegex" value="^main$" />
     </module>
     <module name="MethodName">
       <property name="format" value="^[a-z][a-z0-9]\w*$"/>
